@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="./src/assets/evoe-logo.png" alt="Evoé" width="200" />
+  <img src="./src/assets/Petrus-logo.png" alt="Petrus" width="200" />
 </p>
 
-<h1 align="center">Evoé - Web</h1>
+<h1 align="center">Petrus - Web</h1>
 
 <p align="center">
-  Página de perfil desenvolvida em ReactJS com Vite e TailwindCSS, como parte do desafio técnico da Evoé.
+  Página de perfil desenvolvida em ReactJS com Vite e TailwindCSS, como parte do desafio técnico da Petrus.
 </p>
 
 ---
@@ -22,12 +22,12 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/PedroHenrique1606/evoe-web.git
+git clone https://github.com/PedroHenrique1606/Petrus-web.git
 ```
 2. Acesse a pasta do projeto:
 
 ```bash
-cd evoe-web
+cd Petrus-web
 ```
 
 3. Instale as dependências:
@@ -66,9 +66,5 @@ A estilização foi feita utilizando **TailwindCSS** e **Shadcn/ui**, o que prop
 ## 📌 Observações
 
 - O projeto não utiliza variáveis de ambiente (.env).
-- A UI segue o **design system da Evoé**, conforme o desafio proposto.
+- A UI segue o **design system da Petrus**, conforme o desafio proposto.
 - Requisições ao back-end são feitas para a API desenvolvida separadamente.
-
-## 📷 Preview
-
-![image.png](./src//assets/evoe-system.webp)

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import reactLogo from "../../assets/evoe-logo.png";
+import reactLogo from "../../assets/Petrus-logo.png";
 import { Eye, EyeClosed } from 'lucide-react';
 import clsx from "clsx"
 import {

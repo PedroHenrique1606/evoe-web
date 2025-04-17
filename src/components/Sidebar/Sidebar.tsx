@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom"
 import { User, Menu, Settings, LogOut, LayoutDashboard } from "lucide-react"
 import { useState } from "react"
-import EvoeLogo from "@/assets/evoe-logo.png"
+import PetrusLogo from "@/assets/Petrus-logo.png"
 import { useAuth, useAuthLogout } from "@/context/authContext"
 import clsx from "clsx"
 import {
@@ -55,7 +55,7 @@ export const Sidebar = () => {
                 )}
             >
                 <div className="flex items-center justify-between p-4 border-b">
-                    {sidebarOpen && <img src={EvoeLogo} alt="Logo" className="h-8 w-auto" />}
+                    {sidebarOpen && <img src={PetrusLogo} alt="Logo" className="h-8 w-auto" />}
                     <div className={clsx("flex-1 flex ", sidebarOpen ? "justify-end" : "justify-center")}>
                         <button onClick={toggleSidebar} className="md:inline-flex items-center">
                             <Menu className="w-5 h-5" />
