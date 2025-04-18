@@ -111,12 +111,19 @@ export default function RedefinedPassword() {
                                             value={value}
                                             onChange={(e) => {
                                                 const val = e.target.value.replace(/\D/g, "");
-                                                if (val) {
-                                                    const newCode = [...code];
-                                                    newCode[index] = val;
-                                                    setCode(newCode);
+                                                const newCode = [...code];
+                                                newCode[index] = val;
+                                                setCode(newCode);
+
+                                                if (val && index < code.length - 1) {
                                                     const next = document.getElementById(`code-${index + 1}`);
                                                     if (next) next.focus();
+                                                }
+                                            }}
+                                            onKeyDown={(e) => {
+                                                if (e.key === "Backspace" && !code[index] && index > 0) {
+                                                    const prev = document.getElementById(`code-${index - 1}`);
+                                                    if (prev) prev.focus();
                                                 }
                                             }}
                                             id={`code-${index}`}
